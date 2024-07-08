@@ -176,7 +176,11 @@ const drawPath = (ctx, points, closePath) => {
   if (closePath) {
     region.closePath();
   }
+<<<<<<< HEAD
   ctx.strokeStyle = "pink";
+=======
+  ctx.strokeStyle = "grey";
+>>>>>>> 432a8a6 (chore: Update stroke color to grey in drawPath utility function and changed icon)
   ctx.stroke(region);
 };
 
